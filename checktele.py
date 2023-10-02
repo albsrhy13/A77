@@ -247,9 +247,9 @@ async def _(event):
         async def _(event):
             if ispay2[0] == "yes":
                 if "on" in isclaim:
-                    await event.edit(f"الصيد وصل لـ({trys}) من المحاولات")
+                    await event.edit(f"{trys}")
                 elif "off" in isclaim:
-                    await event.edit("لايوجد صيد شغال !")
+                    await event.edit("↬ ᴄʜᴇᴄᴋᴇʀ ᴏғғ")
                 else:
                     await event.edit("خطأ")
             else:
